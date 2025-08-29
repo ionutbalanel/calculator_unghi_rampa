@@ -26,6 +26,7 @@ input {
 button {
     width: 100%;
     padding: 10px;
+    margin-top: 8px;
     background: #007BFF;
     color: white;
     border: none;
@@ -74,6 +75,15 @@ button:hover {
 
 .legend div {
     text-align: center;
+}
+
+#icon-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#icon-container img {
+    max-width: 100px;
 }
 
 /* Pentru ca svg-ul să se redimensioneze frumos */
