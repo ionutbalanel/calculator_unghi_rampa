@@ -92,6 +92,45 @@ button:hover {
     height: auto;
 }
 
+/* 🔹 Bara de logouri */
+.slider {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slider-track {
+    display: inline-block;
+    animation: scroll 15s linear infinite;
+}
+
+.slider img {
+    height: 60px;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* 🔹 Footer informativ */
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 0.8em;
+    text-align: center;
+    color: #444;
+    background: #f1f1f1;
+    border-radius: 6px;
+}
+
+
 /* Ajustare max-width body pe ecrane mici */
 @media (max-width: 600px) {
     body {
